@@ -48,7 +48,7 @@ public class Activity2 extends AppCompatActivity {
             fos.write(text.getBytes());
 
             enternum.getText().clear();
-            Toast.makeText(this, "Saved " + getFilesDir() + "/"+FILE_NAME, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Saved ", Toast.LENGTH_LONG).show();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
